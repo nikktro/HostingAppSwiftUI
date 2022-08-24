@@ -6,7 +6,7 @@
 //  Copyright © 2019 Alexey Efimov. All rights reserved.
 //
 
-import UIKit
+import SwiftUI
 
 class CourseListViewController: UIViewController {
 
@@ -21,6 +21,12 @@ class CourseListViewController: UIViewController {
         getCourses()
         tableView.rowHeight = 100
         spinner = showSpinner(in: view)
+    }
+    
+    @IBSegueAction func openCourseDetails(_ coder: NSCoder) -> UIViewController? {
+        guard let indexPath = tableView.indexPathForSelectedRow else { return nil }
+        let course = courses[indexPath.row]
+        return UIHostingController(coder: coder, rootView: ContentView(course: course))
     }
     
     private func getCourses() {

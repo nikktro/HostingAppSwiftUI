@@ -32,6 +32,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="GMQ-aC-L3X" kind="show" destinationCreationSelector="openCourseDetails:" id="iP9-A0-ebz"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -57,6 +60,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="772" y="-672.41379310344837"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="NfW-zD-mAv">
+            <objects>
+                <hostingController id="GMQ-aC-L3X" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="RLh-UH-4CH"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oQ4-Uh-Yqr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1543" y="-672"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="lWV-mI-VH0">
