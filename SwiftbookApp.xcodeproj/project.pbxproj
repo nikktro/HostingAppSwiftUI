@@ -17,6 +17,7 @@
 		A823523D22F6F1E900FE65E0 /* CourseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A823523C22F6F1E900FE65E0 /* CourseTableViewCell.swift */; };
 		A8532FFF248B9AE700EA1883 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8532FFE248B9AE700EA1883 /* SceneDelegate.swift */; };
 		A8CC3D29258F5C4F00F0C33C /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8CC3D28258F5C4F00F0C33C /* ImageManager.swift */; };
+		B14AD43328B64C4600D71395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14AD43228B64C4500D71395 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A823523C22F6F1E900FE65E0 /* CourseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseTableViewCell.swift; sourceTree = "<group>"; };
 		A8532FFE248B9AE700EA1883 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A8CC3D28258F5C4F00F0C33C /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		B14AD43228B64C4500D71395 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A823521C22F6AEAC00FE65E0 /* CourseListViewController.swift */,
+				B14AD43228B64C4500D71395 /* ContentView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			files = (
 				A823523D22F6F1E900FE65E0 /* CourseTableViewCell.swift in Sources */,
 				A823523822F6EBD000FE65E0 /* Course.swift in Sources */,
+				B14AD43328B64C4600D71395 /* ContentView.swift in Sources */,
 				A8CC3D29258F5C4F00F0C33C /* ImageManager.swift in Sources */,
 				A823523B22F6ECB900FE65E0 /* NetworkManager.swift in Sources */,
 				A823521D22F6AEAC00FE65E0 /* CourseListViewController.swift in Sources */,
